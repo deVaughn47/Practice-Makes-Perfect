@@ -1,0 +1,55 @@
+# Register the custom quest phase
+quest:
+  phases:
+    # Required to attach your questphase to the game
+    
+    # Vanilla
+    - path: mod\quest\custom\practice_makes_perfect\practice_makes_perfect_v2.questphase
+      parent: base\quest\cyberpunk2077.quest
+    - path: mod\quest\custom\practice_makes_perfect\practice_makes_perfect_v2.questphase
+      parent: ep1\quest\ep1_standalone.quest
+    - path: mod\quest\custom\practice_makes_perfect\practice_makes_perfect_v2.questphase
+      parent: base\open_world\district_definitions\open_world_kabuki.quest
+    - path: mod\quest\custom\practice_makes_perfect\practice_makes_perfect_v2.questphase
+      parent: base\quest\main_quests\prologue\q000\q000.quest
+    - path: mod\quest\custom\practice_makes_perfect\practice_makes_perfect_v2.questphase
+      parent: base\quest\main_quests\prologue\q003\q003.quest
+    - path: mod\quest\custom\practice_makes_perfect\practice_makes_perfect_v2.questphase
+      parent: base\quest\main_quests\prologue\q004\q004.quest
+    - path: mod\quest\custom\practice_makes_perfect\practice_makes_perfect_v2.questphase
+      parent: base\quest\main_quests\prologue\q005\q005_heist.quest
+    - path: mod\quest\custom\practice_makes_perfect\practice_makes_perfect_v2.questphase
+      parent: base\quest\minor_quests\mq025\mq025_psycho_brawl.quest
+      
+    # NG+ compatibility
+    - path: mod\quest\custom\practice_makes_perfect\practice_makes_perfect_v2.questphase
+      parent: mod\quest\NewGamePlus.quest
+    - path: mod\quest\custom\practice_makes_perfect\practice_makes_perfect_v2.questphase
+      parent: mod\quest\NewGamePlus_Q001.quest
+    - path: mod\quest\custom\practice_makes_perfect\practice_makes_perfect_v2.questphase
+      parent: mod\quest\newgameplus_standalone.quest
+
+journal:
+  - mod\journal\custom\practice_makes_perfect\practice_makes_perfect.journal
+
+localization:
+  onscreens:
+    ar-ar: mod\localization\ar-ar\custom\practice_makes_perfect\practice_makes_perfect.json
+    cz-cz: mod\localization\cz-cz\custom\practice_makes_perfect\practice_makes_perfect.json
+    de-de: mod\localization\de-de\custom\practice_makes_perfect\practice_makes_perfect.json
+    en-us: mod\localization\en-us\custom\practice_makes_perfect\practice_makes_perfect.json
+    es-es: mod\localization\es-es\custom\practice_makes_perfect\practice_makes_perfect.json
+    es-mx: mod\localization\es-mx\custom\practice_makes_perfect\practice_makes_perfect.json
+    fr-fr: mod\localization\fr-fr\custom\practice_makes_perfect\practice_makes_perfect.json
+    hu-hu: mod\localization\hu-hu\custom\practice_makes_perfect\practice_makes_perfect.json
+    it-it: mod\localization\it-it\custom\practice_makes_perfect\practice_makes_perfect.json
+    jp-jp: mod\localization\jp-jp\custom\practice_makes_perfect\practice_makes_perfect.json
+    kr-kr: mod\localization\kr-kr\custom\practice_makes_perfect\practice_makes_perfect.json
+    pl-pl: mod\localization\pl-pl\custom\practice_makes_perfect\practice_makes_perfect.json
+    pt-br: mod\localization\pt-br\custom\practice_makes_perfect\practice_makes_perfect.json
+    ru-ru: mod\localization\ru-ru\custom\practice_makes_perfect\practice_makes_perfect.json
+    th-th: mod\localization\th-th\custom\practice_makes_perfect\practice_makes_perfect.json
+    tr-tr: mod\localization\tr-tr\custom\practice_makes_perfect\practice_makes_perfect.json
+    ua-ua: mod\localization\ua-ua\custom\practice_makes_perfect\practice_makes_perfect.json
+    zh-cn: mod\localization\zh-cn\custom\practice_makes_perfect\practice_makes_perfect.json
+    zh-tw: mod\localization\zh-tw\custom\practice_makes_perfect\practice_makes_perfect.json
